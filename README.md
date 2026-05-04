@@ -114,29 +114,29 @@ This system enables:
   - Monitoring systemic supply chain risks
 
 ## Project Structure
-pharma-supply-chain-risk/
-│
-├── data/
-│ └── final_dataset.csv
-│ └── manufacturer_counts.csv
-│ └── products.csv
-│ └── shortage_data.csv
-│ └── drug-shortages.json
-│
-├── model/
-│ └── model.joblib
-│
-├── notebooks/
-│ ├── 1.fda_drug_shortages.ipynb
-│ ├── 2.fda_orange_book
-│ ├── 3.merged.ipynb
-│
-├── dashboard/
-│ ├── dashboard.py
-│ ├── charts.py
-│ ├── filters.py
-│ ├── feature_engineering.py
-│ ├── data_loader.py
-│ ├── ai_explainer.py
-│
+pharma-supply-chain-risk/  
+│  
+├── data/  
+│ └── final_dataset.csv  
+│ └── manufacturer_counts.csv  
+│ └── products.csv  
+│ └── shortage_data.csv  
+│ └── drug-shortages.json  
+│  
+├── model/  
+│ └── model.joblib  
+│  
+├── notebooks/  
+│ ├── 1.fda_drug_shortages.ipynb  
+│ ├── 2.fda_orange_book  
+│ ├── 3.merged.ipynb  
+│  
+├── dashboard/  
+│ ├── dashboard.py  
+│ ├── charts.py  
+│ ├── filters.py  
+│ ├── feature_engineering.py  
+│ ├── data_loader.py  
+│ ├── ai_explainer.py  
+│  
 ├── README.md
