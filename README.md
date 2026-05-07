@@ -44,7 +44,7 @@ The model incorporates both **supply-side and demand-side signals**:
 - **Shortage Reasons** → operational signals  
 - **Dosage Form Indicators** → complexity proxy  
 
-
+<!--
 ### Target Variable
 
 - **future_shortage**
@@ -66,6 +66,7 @@ Selection based on:
 - Balanced precision-recall tradeoff  
 - Strong overall performance  
 - Robust handling of non-linear relationships  
+-->
 
 ## Model Performance
 
@@ -81,25 +82,16 @@ Selection based on:
 - **Recent shortages strongly indicate future disruptions**  
 - Even drugs with multiple manufacturers can experience systemic shortages  
 
-## Dashboard (Decision System)
+## Dashboard
 
 The Streamlit dashboard transforms model outputs into **actionable insights**:
 
-### Features
-
-- **Risk Distribution & Trends** → portfolio-level monitoring  
-- **Decision Matrix** → risk vs volume analysis  
-- **Supplier Concentration Analysis** → dependency insights  
-- **Drug Decision Panel**:
-  - WHY the drug is at risk  
-  - WHAT is driving the risk  
-  - WHAT action to take  
-
-## Explainability Layer
+### Explainability Layer
 
 - Rule-based explanations derived from feature values  
 - Optional AI-assisted explanations (LLM) for business-friendly insights
 
+<!--
 ## Business Applications
 
 This system enables:
@@ -112,6 +104,7 @@ This system enables:
 
 - **Regulators**
   - Monitoring systemic supply chain risks
+
 
 ## Project Structure
 pharma-supply-chain-risk/  
@@ -140,3 +133,5 @@ pharma-supply-chain-risk/
 │ ├── ai_explainer.py  
 │  
 ├── README.md
+
+-->
